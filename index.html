@@ -81,8 +81,8 @@ p{margin:0 0 1em;}
 .btn-primary:hover{ background:#173d80; transform:translateY(-2px); }
 .btn-ghost{ border-color: rgba(10,18,32,0.25); color:var(--navy); }
 .btn-ghost:hover{ border-color:var(--blue); color:var(--blue); }
-.btn-call{ border-color: rgba(255,255,255,0.3); color:#fff; padding:10px 18px; font-size:0.88rem;}
-.btn-call:hover{ border-color:var(--cyan); color:var(--cyan-soft); }
+.btn-call{ border-color: rgba(10,18,32,0.25); color:var(--navy); padding:10px 18px; font-size:0.88rem;}
+.btn-call:hover{ border-color:var(--blue); color:var(--blue); }
 .btn-block{ width:100%; }
 
 .section{ padding: 92px 0; }
@@ -95,20 +95,20 @@ p{margin:0 0 1em;}
 /* ============ Header ============ */
 .site-header{
   position:sticky; top:0; z-index:50;
-  background:rgba(10,18,32,0.92); backdrop-filter:blur(8px);
-  border-bottom:1px solid rgba(255,255,255,0.08);
+ background:rgba(234,240,246,0.94); backdrop-filter:blur(8px);
+ border-bottom:1px solid rgba(10,18,32,0.08);
 }
 .header-inner{ display:flex; align-items:center; gap:18px; padding:12px 24px; }
 .brand{ display:flex; align-items:center; gap:10px; margin-right:auto; }
 .brand-mark{ width:42px; height:42px; object-fit:contain; }
-.brand-word{ display:flex; flex-direction:column; line-height:1.15; color:#fff; }
+.brand-word{ display:flex; flex-direction:column; line-height:1.15; color:var(--navy); }
 .brand-word strong{ font-family:var(--display); font-size:0.98rem; letter-spacing:0.02em; }
-.brand-word em{ font-style:normal; font-size:0.68rem; color:var(--cyan-soft); letter-spacing:0.05em; }
+.brand-word em{ font-style:normal; font-size:0.68rem; color:var(--blue); letter-spacing:0.05em; }
 .main-nav{ display:flex; gap:26px; }
-.main-nav a{ color:#dbe6f2; font-size:0.92rem; font-weight:500; transition:color .15s; }
-.main-nav a:hover{ color:var(--cyan-soft); }
+.main-nav a{  color:var(--navy); font-size:0.92rem; font-weight:500; transition:color .15s; }
+.main-nav a:hover{ color:var(--blue); }
 .nav-toggle{ display:none; flex-direction:column; gap:4px; background:none; border:0; cursor:pointer; padding:6px; }
-.nav-toggle span{ width:22px; height:2px; background:#fff; border-radius:2px; }
+.nav-toggle span{ width:22px; height:2px; background:--navy; border-radius:2px; }
 
 /* ============ Hero ============ */
 .hero{
@@ -235,7 +235,7 @@ p{margin:0 0 1em;}
   .about-grid, .why-grid, .contact-grid{ grid-template-columns:1fr; }
   .hero-blueprint{ opacity:0.35; }
   .main-nav{
-    position:absolute; top:100%; left:0; right:0; background:var(--navy);
+    position:absolute; top:100%; left:0; right:0; background:#EAF0F6;
     flex-direction:column; padding:18px 24px; gap:16px; display:none;
     border-bottom:1px solid rgba(255,255,255,0.08);
   }
