@@ -11,14 +11,14 @@ const services = [
 ];
 
 const projects = [
-  { img: "manas-kanchan.jpg", name: "Manas Kanchan CHSL", loc: "Sher-e-Punjab, Andheri East" },
-  { img: "ganpat-aarti.jpg", name: "Ganpat Aarti CHSL", loc: "Kamothe, Navi Mumbai" },
-  { img: "new-raj-mahal.jpg", name: "New Raj Mahal", loc: "84C Nariman Road, Churchgate" },
-  { img: "dubash-building.jpg", name: "Dubash Building", loc: "Hains Road, Byculla" },
-  { img: "ruby-hill.jpg", name: "Ruby Hill", loc: "Malabar Hills, Walkeshwar" },
-  { img: "mistry-industrial.jpg", name: "Mistry Industrial Complex", loc: "MIDC Cross Road, Andheri East" },
-  { img: "toscano-house.jpg", name: "Toscano House", loc: "I.C. Colony, Borivali West" },
-  { img: "moti-mahal.jpg", name: "134-136 Moti Mahal", loc: "LK Market, Zaveri Bazar" },
+  { img: "assets/projects/manas-kanchan.jpg", name: "Manas Kanchan CHSL", loc: "Sher-e-Punjab, Andheri East" },
+  { img: "assets/projects/ganpat-aarti.jpg", name: "Ganpat Aarti CHSL", loc: "Kamothe, Navi Mumbai" },
+  { img: "assets/projects/new-raj-mahal.jpg", name: "New Raj Mahal", loc: "84C Nariman Road, Churchgate" },
+  { img: "assets/projects/dubash-building.jpg", name: "Dubash Building", loc: "Hains Road, Byculla" },
+  { img: "assets/projects/ruby-hill.jpg", name: "Ruby Hill", loc: "Malabar Hills, Walkeshwar" },
+  { img: "assets/projects/mistry-industrial.jpg", name: "Mistry Industrial Complex", loc: "MIDC Cross Road, Andheri East" },
+  { img: "assets/projects/toscano-house.jpg", name: "Toscano House", loc: "I.C. Colony, Borivali West" },
+  { img: "assets/projects/moti-mahal.jpg", name: "134-136 Moti Mahal", loc: "LK Market, Zaveri Bazar" },
 ];
 
 function renderServices() {
